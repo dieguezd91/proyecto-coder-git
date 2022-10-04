@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuienTeImporta</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Quien Te Importa?</div>
+
+        <form class="barra__busqueda">
+            <select class="btn__select">
+                <option value="https://www.amazon.com/"> Amazon</option>
+                <option value="https://www.ebay.com/"> Ebay</option>
+                <option value="https://www.walmart.com/"> Walmart</option>
+                <option value="https://www.bestbuy.com/"> Bestbuy</option>
+            </select>
+
+            <input type="search" value="Busca lo que no llega a tu pais!" id="btn__tip">
+
+            <input type="submit" value="Buscalo!" class="btn__search">
+        </form>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html"> Inicio</a></li>
+
+            <li><a href="../pages/productos.html"> Catalogo de Productos</a></li>
+
+            <li><a href="../pages/costosytarifas.html"> Costos y tarifas</a></li>
+
+            <li><a href="../pages/nosotros.html"> Sobre Nosotros</a></li>
+
+            <li><a href="../pages/contacto.html"> Contacto</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="contacto">Contacto</h2>
+
+        <section class="portada__contacto">
+
+            <form action class="formulario__contacto">
+                <div>
+                    <label for="nombre de usuario"><b>Nombre y Apellido</b></label>
+                    <input type="text" class="nombre__usuario" name="nombre-usuario">
+                </div>
+                <div>
+                    <label for="mail de usuario"><b>Correo electronico</b></label>
+                    <input type="email" class="mail__usuario">
+                </div>
+                <div>
+                    <label for="Asunto"><b>Asunto</b></label>
+                    <select class="Asunto">
+                        <option value="Reclamo">Reclamo</option>
+                        <option value="Devolucion">Devolucion</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Ingrese su mensaje" class="mensaje"><b>Ingrese su mensaje</b></label>
+                    <textarea cols="40" rows="15"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn__send">
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <hr>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis temporibus architecto neque eaque ipsam consequatur, beatae ducimus aut id libero ipsum atque, placeat voluptate tempore cupiditate modi. Facere, alias.Lorem</b> 
+        <hr>
+    </footer>
+
+</body>
+
+</html>
