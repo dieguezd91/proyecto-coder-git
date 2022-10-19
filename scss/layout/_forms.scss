@@ -1,0 +1,31 @@
+.formulario__contacto {
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    color: #E6E48C;
+    font-size: large;
+    justify-content: space-between;
+}
+
+b{
+    display: flex;
+    justify-content: center;
+}
+
+.nombre__usuario,
+.mail__usuario{
+    width: 25vw;
+}
+
+.asunto {
+    color: black;
+    background-color: #E6E48C;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    margin-inline: 5px;
+}
+

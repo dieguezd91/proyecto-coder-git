@@ -1,0 +1,17 @@
+
+@import "base/reset";
+
+@import "pages/index";
+@import "pages/productos";
+@import "pages/contacto";
+@import "pages/costos";
+@import "pages/nosotros";
+
+@import "componentes/botones";
+@import "componentes/tarjetas";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/forms";
+
+@import "utils/mixins";
