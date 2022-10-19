@@ -22,6 +22,21 @@
             top: 0px;
         }
 
+        nav ul {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 30px;
+            width: 100vw;
+            padding-left: 0px;
+            list-style: none;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 700;
+            li{
+                padding-inline: 10px;
+            }
+        }
+
         .barra__busqueda {
             display: flex;
             text-align: center;
@@ -68,20 +83,6 @@
             height: 22px;
             font-size: 10px;
             margin-inline: 1px;
-        }
-
-        nav ul {
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
-            height: 30px;
-            width: 100vw;
-            padding-left: 1px;
-            list-style: none;
-            padding-inline: 3px;
-            display: flex;
-            justify-content: space-around;
-                font-size: 10px;
-                font-weight: 700;
         }
 
         .slider {
