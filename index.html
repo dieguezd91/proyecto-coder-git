@@ -5,146 +5,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="sitio de compras online en web extranjeras como amazon ebay walmart bestbuy con envios puerta a puerta">
+    <meta name="description"
+        content="sitio de compras online en web extranjeras como amazon ebay walmart bestbuy con envios puerta a puerta">
     <title>Tus compras en el exterior desde la comodidad de tu casa - QuienTeImporta?</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet icon" href="./assets/img/logo1.png">
 </head>
 
 <body>
 
-    <header>
+    <!-- NAV-BAR -->
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt="" class="w-100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="container collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="container navbar-nav me-auto mb-2 mb-lg-0 justify-content-center align-content-center">
 
-        <img src="./assets/img/logo1.png" alt="" class="logo">
+                    <li class="navbar-item">
+                        <a class="nav-link color-secciones active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link color-secciones" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link color-secciones" href="./pages/costosytarifas.html">Costos y tarifas</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link color-secciones" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link color-secciones" href="./pages/contacto.html">Contacto</a>
+                    </li>
 
-        <form class="barra__busqueda">
-            <select class="btn__select">
-                <option value="https://www.amazon.com/"> Amazon</option>
-                <option value="https://www.ebay.com/"> Ebay</option>
-                <option value="https://www.walmart.com/"> Walmart</option>
-                <option value="https://www.bestbuy.com/"> Bestbuy</option>
-            </select>
-
-            <input type="search" value="Busca lo que no te llega!" id="btn__tip">
-
-            <input type="submit" value="Buscalo!" class="btn__search">
-        </form>
+                    <div class="login">
+                        <li class="nav-item dropdown" id="menu__desplegable">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Inicia sesion o Registrate
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Registrate!</a></li>
+                                <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+                <div>
+                    <form class="d-flex justify-content-center" role="search">
+                        <input class="form-control me-1" id="barra__buscalo" type="search" placeholder="Buscalo..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" id="btn__buscalo" type="submit">Ahora!</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="./pages/productos.html">Catalogo de Productos</a></li>
-            <li><a href="./pages/costosytarifas.html">Costos y Tarifas</a></li>
-            <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-
     <main class="mainIndex">
 
-        <section class="portada">
-
-            <div class="tendencias">
-
-                <h2 class="tendencias__title">Tendencias</h2>
-
-                <div class="slider">
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Termo Stanley 1L</h3>
-                        <img src="./assets/img/termo-stanley.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Amazon Echo Studio</h3>
-                        <img src="./assets/img/amazon-echo.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Iphone 14 Pro Max</h3>
-                        <img src="./assets/img/iphone14.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">PlayStation 5</h3>
-                        <img src="./assets/img/ps5.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Tv Samsung NQLed 75"</h3>
-                        <img src="./assets/img/tvsamsung.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Perfume Ives Saint Laurent - Libre</h3>
-                        <img src="./assets/img/perfume-dua-lipa.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
+        <!-- PORTADA -->
+        <section class="">
+            <h2 class="container-fluid my-3 py-1 text-center tendencias__title">Tendencias</h2>
+            <section class="container">
+                <div class="container slider">
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/amazon-echo.jpg" id="tarjeta__img" style="max-width: 200px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Amazon echo Studio</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/iphone14.jpg" id="tarjeta__img" style="max-width: 150px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">IPhone 14 Pro Max</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/ps5.jpg" id="tarjeta__img" style="max-width: 150px" class="card-img-top mx-auto p-3 w-100"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">PlayStation 5</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/tvsamsung.jpg" id="tarjeta__img" style="max-width: 250px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Tv Samsung NQLed 75</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="masvendido">
-                <h2 class="masvendido__title">Lo mas vendido</h2>
-                <div class="slider">
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Termo Stanley 1L</h3>
-                        <img src="./assets/img/termo-stanley.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Iphone 13 pro</h3>
-                        <img src="./assets/img/mas-vendido/iphone-13-pro.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Asus Vivobook s14 Flip</h3>
-                        <img src="./assets/img/mas-vendido/asus-vivobook-se14-flip.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Asus Rog Flow z13</h3>
-                        <img src="./assets/img/mas-vendido/asus-rog-flow-z13.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Iphone 8</h3>
-                        <img src="./assets/img/mas-vendido/iphone8.png" alt="" class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
-
-                    <article class="tarjeta">
-                        <h3 class="tarjeta__title">Xbox Core Wireless Controller</h3>
-                        <img src="./assets/img/mas-vendido/xbox-core-wireless-controller.png" alt=""
-                            class="tarjeta__img">
-                        <a href="" class="btn">Comprar</a>
-                    </article>
+            <h2 class="container-fluid my-3 py-1 text-center masvendido__title">Lo mas vendido</h2>
+            <section class="container">
+                <div class="container slider">
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/mas-vendido/asus-rog-flow-z13.jpg" id="tarjeta__img" style="max-width: 250px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Asus Rog Flow z13</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/mas-vendido/asus-vivobook-se14-flip.jpg" id="tarjeta__img" style="max-width: 200px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Asus VivoBook se14 flip</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/mas-vendido/iphone-13-pro.jpg" id="tarjeta__img" style="max-width: 200px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Iphone 13 Pro</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="container card shadow" id="tarjeta" style="width: 18rem; height: 20rem;">
+                        <img src="./assets/img/mas-vendido/termo-stanley.jpg" id="tarjeta__img" style="max-width: 200px"
+                            class="card-img-top mx-auto p-3 w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-black">Termo Stanley 1L</h5>
+                            <a href="#" class="btn btn-primary" id="btn__comprar">Comprar</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
     </main>
 
-    <footer>
-        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis temporibus architecto neque eaque
-            ipsam consequatur, beatae ducimus aut id libero ipsum atque, placeat voluptate tempore cupiditate modi.
-            Facere, alias.Lorem</b>
-        <!-- <ul>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://www.twitter.com/">Twitter</a></li>
-            <li><a href="https://www.tiktok.com/">TikTok</a></li>
-        </ul> -->
+    <!-- FOOTER -->
+    <footer class="container-fluid pt-5 pb-3 mt-5 mx-0">
+        <div class="container-fluid d-flex flex-row justify-content-around">
+            <div class="col-1 d-flex flex-column flex-wrap justify-content-center align-items-center">
+                <a href="./index.html" class="">
+                    <img src="./assets/img/logo1.png" alt="" class="" width="64" height="96">
+                    <use xlink:href="#bootstrap" />
+                    </img>
+                </a>
+            </div>
+
+            <div class="col-3 px-5">
+                <h5 class="text-center">Metodos de pago</h5>
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Visa</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mastercard</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">American express</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Transferencias</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MercadoPago</a></li>
+                </ul>
+            </div>
+
+            <div class="col-3 px-5">
+                <h5 class="text-center">Redes Sociales</h5>
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item mb-2"><i class="bi bi-facebook"></i><a href="https://www.facebook.com/"
+                            class="nav-link p-0 text-muted">Facebook</a></li>
+                    <li class="nav-item mb-2"><i class="bi bi-instagram"></i><a href="https://www.instagram.com/"
+                            class="nav-link p-0 text-muted">Instagram</a></li>
+                    <li class="nav-item mb-2"><i class="bi bi-twitter"></i><a href="https://twitter.com/"
+                            class="nav-link p-0 text-muted">Twitter</a></li>
+                    <li class="nav-item mb-2"><i class="bi bi-youtube"></i><a href="https://www.youtube.com/"
+                            class="nav-link p-0 text-muted">YouTube</a></li>
+                </ul>
+            </div>
+
+            <div class="col-3 px-5">
+                <h5 class="text-center">Contacto</h5>
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Atencion telefonica:</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">De lunes a sabados de 0:00 a
+                            0:00 y domingos de 0:00 a 0:00</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
     </footer>
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

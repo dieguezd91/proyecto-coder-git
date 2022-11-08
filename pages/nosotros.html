@@ -5,59 +5,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="sitio de compras online en web extranjeras como amazon ebay walmart bestbuy con envios puerta a puerta">
+    <meta name="description"
+        content="sitio de compras online en web extranjeras como amazon ebay walmart bestbuy con envios puerta a puerta">
     <title>Tus compras en el exterior desde la comodidad de tu casa - QuienTeImporta?</title>
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet icon" href="../assets/img/logo1.png">
 </head>
 
 <body>
-    <header>
-        <img src="../assets/img/logo1.png" alt="" class="logo">
 
-        <form class="barra__busqueda">
-            <select class="btn__select">
-                <option value="https://www.amazon.com/"> Amazon</option>
-                <option value="https://www.ebay.com/"> Ebay</option>
-                <option value="https://www.walmart.com/"> Walmart</option>
-                <option value="https://www.bestbuy.com/"> Bestbuy</option>
-            </select>
+    <body>
 
-            <input type="search" value="Busca lo que no llega a tu pais!" id="btn__tip">
+        <!-- NAV-BAR -->
+        <header class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="" class="w-100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="container collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="container navbar-nav me-auto mb-2 mb-lg-0 justify-content-center align-content-center">
 
-            <input type="submit" value="Buscalo!" class="btn__search">
-        </form>
-    </header>
+                        <li class="navbar-item">
+                            <a class="nav-link color-secciones active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="navbar-item ">
+                            <a class="nav-link color-secciones" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="navbar-item ">
+                            <a class="nav-link color-secciones" href="../pages/costosytarifas.html">Costos y tarifas</a>
+                        </li>
+                        <li class="navbar-item ">
+                            <a class="nav-link color-secciones" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="navbar-item ">
+                            <a class="nav-link color-secciones" href="../pages/contacto.html">Contacto</a>
+                        </li>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html"> Inicio</a></li>
+                        <div class="login">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Inicia sesion o Registrate
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Registrate!</a></li>
+                                    <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                    <div>
+                        <form class="d-flex justify-content-center" role="search">
+                            <input class="form-control me-1" type="search" placeholder="Buscalo..." aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Ahora!</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
-            <li><a href="../pages/productos.html"> Catalogo de Productos</a></li>
+        <main>
+            <h2 class="container-fluid my-3 py-1 text-center tendencias__title">QuienTeImporta?</h2>
+            <section class="container">
+                <div class="portada__nosotros">
+                    <p class="text-start p-5">“Cada vez que hago un viaje de trabajo, mis amigos me piden traerles cosas
+                        de afuera”.
+                        Este fue el estímulo que empujó a crear este sitio web, a soñar con una plataforma online
+                        completa
+                        que permita acceder a productos en EE.UU. y un servicio fácil que te los traiga.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        QuienTeImporta? es la forma fácil de acceder a todo eso que no está en tu país y la forma fácil
+                        de
+                        recibirlo del mundo a tu puerta, sin fronteras.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        QuienTeImporta? es un eCommerce en Latinoamérica, con base en Miami, y que reúne en una sola
+                        plataforma online el catálogo de productos de Amazon, eBay, Walmart y BestBuy de Estados Unidos.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Finalmente, QuienTeImporta? también es una tienda en línea intuitiva y un servicio completo de
+                        envíos internacionales y atención al usuario, para que la experiencia al comprar y recibir
+                        productos
+                        del exterior sea cómoda, segura y simple.
+                    </p>
+                </div>
+            </section>
+        </main>
 
-            <li><a href="../pages/costosytarifas.html"> Costos y Tarifas</a></li>
+        <!-- FOOTER -->
+        <footer class="container-fluid pt-5 pb-3 mt-5 mx-0">
+            <div class="container-fluid d-flex flex-row justify-content-around">
+                <div class="col-1 d-flex flex-column flex-wrap justify-content-center align-items-center">
+                    <a href="../index.html" class="">
+                        <img src="../assets/img/logo1.png" alt="" class="" width="64" height="96">
+                        <use xlink:href="#bootstrap" />
+                        </img>
+                    </a>
+                </div>
 
-            <li><a href="../pages/nosotros.html"> Sobre Nosotros</a></li>
+                <div class="col-3 px-5">
+                    <h5 class="text-center">Metodos de pago</h5>
+                    <ul class="nav flex-column text-center">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Visa</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mastercard</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">American express</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Transferencias</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MercadoPago</a></li>
+                    </ul>
+                </div>
 
-            <li><a href="../pages/contacto.html"> Contacto</a></li>
+                <div class="col-3 px-5">
+                    <h5 class="text-center">Redes Sociales</h5>
+                    <ul class="nav flex-column text-center">
+                        <li class="nav-item mb-2"><i class="bi bi-facebook"></i><a href="https://www.facebook.com/"
+                                class="nav-link p-0 text-muted">Facebook</a></li>
+                        <li class="nav-item mb-2"><i class="bi bi-instagram"></i><a href="https://www.instagram.com/"
+                                class="nav-link p-0 text-muted">Instagram</a></li>
+                        <li class="nav-item mb-2"><i class="bi bi-twitter"></i><a href="https://twitter.com/"
+                                class="nav-link p-0 text-muted">Twitter</a></li>
+                        <li class="nav-item mb-2"><i class="bi bi-youtube"></i><a href="https://www.youtube.com/"
+                                class="nav-link p-0 text-muted">YouTube</a></li>
+                    </ul>
+                </div>
 
-        </ul>
-    </nav>
+                <div class="col-3 px-5">
+                    <h5 class="text-center">Contacto</h5>
+                    <ul class="nav flex-column text-center">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Atencion telefonica:</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">De lunes a sabados de 0:00
+                                a
+                                0:00 y domingos de 0:00 a 0:00</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </footer>
 
-    <main>
-        <h2 class="nosotros">Sobre nosotros</h2>
-        <div class="portada__nosotros">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam modi minima, exercitationem
-                necessitatibus neque quas, consequatur vitae cupiditate similique laborum repellendus perferendis
-                distinctio optio ad ullam blanditiis dolores doloremque minus.</p>
-        </div>
-    </main>
-
-    <footer>
-        <hr>
-        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis temporibus architecto neque eaque ipsam consequatur, beatae ducimus aut id libero ipsum atque, placeat voluptate tempore cupiditate modi. Facere, alias.Lorem</b> 
-        <hr>
-    </footer>
-</body>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
 
 </html>

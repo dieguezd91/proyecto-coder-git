@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar {
+    padding-bottom: 5px;
+    background-color: darkslateblue;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+}
+
+.login {
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.navbar-item {
+    padding: 3px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: rgba(137, 43, 226, 0.158);
+}
+
+.color-secciones {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(250, 136, 7);
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+#tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition-duration: 1s;
+}
+
+#menu__desplegable{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: rgb(93, 85, 146);
+}
+
+#tarjeta:hover {
+    background-color: rgba(153, 67, 67, 0.5215686275);
+}
+
+.tarjeta__title {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#tarjeta__img {
+    transition: 1s;
+}
+
+#tarjeta__img:hover {
+    transform:scale(1.1);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #994343;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 2px solid #994343;
+    transition-duration: 1s;
+}
+
+.btn__compra {
+    background-color: #994343;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 2px solid #994343;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    border: 2px solid #994343;
+    background-color: white;
+    color: #994343;
+    transform: rotateX(360deg);
+}
+
+footer{
+    background-color: darkslateblue;
+}
+
+h5{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#btn__comprar{
+    display: flex;
+    justify-content: center;
+}
+
+#form__contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#menu__reclamo{
+    width: 25%;
+}
+
+#nombre__usuario{
+    color: rgba(0, 0, 0, 0.308);
+}
+
+#mail__usuario{
+    color: rgba(0, 0, 0, 0.308);
+}
