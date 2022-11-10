@@ -1,0 +1,45 @@
+.color-secciones {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(250, 136, 7);
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+#menu__desplegable{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: rgb(93, 85, 146);
+}
+
+.login {
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.navbar-item {
+    padding: 3px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.navbar {
+    padding-bottom: 5px;
+    background-color: darkslateblue;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+}

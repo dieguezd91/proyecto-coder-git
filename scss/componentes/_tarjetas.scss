@@ -1,47 +1,39 @@
-.tarjeta {
-    border: 2px solid #994343;
-    width: 300px;
-    height: 350px;
-    border-radius: 15px;
-    background-color: #9cc0d6ad;
-    margin: 40px auto;
+#tarjeta:hover {
+    background-color: rgba(153, 67, 67, 0.5215686275);
+}
+
+.tarjeta__title {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#tarjeta__img {
+    transition: 1s;
+}
+
+#tarjeta__img:hover {
+    transform:scale(1.1);
+}
+
+.card-body{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transition-duration: 1s;
-
-    &:hover {
-        border: 2px solid #994343;
-        width: 350px;
-        height: 400px;
-        background-color: #99434385;
-    }
-
-
-    &__title {
-        color: black;
-        text-align: center;
-        padding: 15px;
-        font-size: 1.3rem;
-    }
-
-    &__img {
-        width: 150px;
-        height: 150px;
-        transition: 1s;
-
-        &:hover {
-            width: 200px;
-            height: 200px;
-            transform: rotate(360deg);
-        }
-    }
+    justify-content: end;
 }
 
 .slider {
-    padding: 15px;
     display: flex;
-    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
     overflow: auto;
+    gap: 20px;
+}
+
+#tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition-duration: 1s;
 }

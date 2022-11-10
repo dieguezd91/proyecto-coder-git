@@ -39,6 +39,11 @@ h2 {
     background-color: rgba(137, 43, 226, 0.158);
 }
 
+h3 {
+    font-size: medium;
+    font-weight: bold;
+}
+
 .color-secciones {
     color: aliceblue;
 }
@@ -52,7 +57,6 @@ h2 {
     color: black;
     transition: 0.5s;
 }
-
 
 
 #tarjeta{
@@ -69,7 +73,7 @@ h2 {
 }
 
 #tarjeta:hover {
-    background-color: rgba(153, 67, 67, 0.5215686275);
+    background-color: rgba(153, 67, 67, 0.295);
 }
 
 .tarjeta__title {
@@ -130,7 +134,8 @@ footer{
     background-color: darkslateblue;
 }
 
-h5{
+.seccion-footer{
+    font-size: medium;
     color: aliceblue;
     font-weight: bold;
 }
