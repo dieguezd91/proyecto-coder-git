@@ -21,7 +21,7 @@
         <!-- NAV-BAR -->
         <header class="navbar navbar-expand-lg">
             <div class="container">
-                <h1 class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="" class="w-100">
+                <h1 class="navbar-brand" href="../index.html"><img src="../assets/img/logo1.png" alt="" class="w-50">
                 </h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -50,7 +50,7 @@
 
                         <div class="login">
                             <li class="nav-item dropdown" id="menu__desplegable">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle p-1" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Inicia sesion o Registrate
                                 </a>
@@ -71,13 +71,13 @@
                 </nav>
             </div>
         </header>
-        <main>
+        <main class="mainIndex">
 
             <h2 class="container-fluid my-3 py-1 text-center">Contacto</h2>
             <form class="m-3 g-2 needs-validation" id="form__contacto" novalidate>
                 <div class="col-md-4">
                     <label for="nombre__usuario" class="form-label p-1 m-1">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="nombre__usuario" value="nombre/s - apellido/s" required>
+                    <input type="text" class="form-control" id="nombre__usuario" value="Nombre/s - Apellido/s" required>
                 </div>
                 <div class="col-md-4">
                     <label for="mail__usuario" class="form-label p-1 m-1">Correo electronico</label>
@@ -97,7 +97,7 @@
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="area__texto" class="form-label">Ingrese su mensaje</label>
+                    <label for="area__texto" class="form-label p-1 m-1">Ingrese su mensaje</label>
                     <textarea class="form-control" id="area__texto" placeholder="Mensaje..." required></textarea>
                 </div>
                 <div class="col-12">
@@ -109,54 +109,70 @@
 
 
         <!-- FOOTER -->
-        <footer class="container-fluid pt-5 pb-3 mt-5 mx-0">
-            <div class="container-fluid d-flex flex-row justify-content-around">
-                <div class="col-1 d-flex flex-column flex-wrap justify-content-center align-items-center">
-                    <a href="../index.html" class="">
-                        <img src="../assets/img/logo1.png" alt="" class="" width="64" height="96">
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="d-flex flex-column align-items-center justify-content-lg-center py-3 col-lg-3" >
+                        <img src="../assets/img/logo.png" alt="" class="w-25" >
                         <use xlink:href="#bootstrap" />
                         </img>
-                    </a>
-                </div>
+                    </div>
 
-                <div class="col-3 px-5">
-                    <h5 class="seccion-footer text-center">Metodos de pago</h5>
-                    <ul class="nav flex-column text-center">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Visa</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mastercard</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">American express</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Transferencias</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MercadoPago</a></li>
-                    </ul>
-                </div>
+                    <div class="col-md-4 col-lg-3 pb-3">
+                        <h5 class="seccion-footer text-center p-2 m-0 color-footer">Metodos de pago</h5>
+                        <ul class="nav flex-column text-center">
+                            <li class="nav-item mb-0">
+                                <p href="#" class="color-secciones mb-0 p-2">Visa</p>
+                            </li>
+                            <li class="nav-item mb-0">
+                                <p href="#" class="color-secciones mb-0 p-2">American express</p>
+                            </li>
+                            <li class="nav-item mb-0">
+                                <p href="#" class="color-secciones mb-0 p-2">Transferencias</p>
+                            </li>
+                            <li class="nav-item mb-0">
+                                <p href="#" class="color-secciones mb-0 p-2">MercadoPago</p>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col-3 px-5">
-                    <h5 class="seccion-footer text-center">Redes Sociales</h5>
-                    <ul class="nav flex-column text-center">
-                        <li class="nav-item mb-2"><i class="bi bi-facebook"></i><a href="https://www.facebook.com/"
-                                class="nav-link p-0 text-muted">Facebook</a></li>
-                        <li class="nav-item mb-2"><i class="bi bi-instagram"></i><a href="https://www.instagram.com/"
-                                class="nav-link p-0 text-muted">Instagram</a></li>
-                        <li class="nav-item mb-2"><i class="bi bi-twitter"></i><a href="https://twitter.com/"
-                                class="nav-link p-0 text-muted">Twitter</a></li>
-                        <li class="nav-item mb-2"><i class="bi bi-youtube"></i><a href="https://www.youtube.com/"
-                                class="nav-link p-0 text-muted">YouTube</a></li>
-                    </ul>
-                </div>
+                    <div class="col-md-4 col-lg-3 pb-3">
+                        <h5 class="seccion-footer text-center p-2 m-0 color-footer">Redes Sociales</h5>
+                        <ul class="nav flex-column text-center">
+                            <li class="nav-item p-1"><i class="bi bi-facebook fs-5"></i><a
+                                    href="https://www.facebook.com/" class="nav-link color-secciones p-1">Facebook</a>
+                            </li>
+                            <li class="nav-item"><i class="bi bi-instagram fs-5"></i><a
+                                    href="https://www.instagram.com/" class="nav-link color-secciones p-1">Instagram</a>
+                            </li>
+                            <li class="nav-item"><i class="bi bi-twitter fs-5"></i><a href="https://twitter.com/"
+                                    class="nav-link color-secciones p-1">Twitter</a></li>
+                            <li class="nav-item"><i class="bi bi-youtube fs-5"></i><a href="https://www.youtube.com/"
+                                    class="nav-link color-secciones p-1">YouTube</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col-3 px-5">
-                    <h5 class="seccion-footer text-center">Contacto</h5>
-                    <ul class="nav flex-column text-center">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Atencion telefonica:</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">De lunes a sabados de 0:00
-                                a
-                                0:00 y domingos de 0:00 a 0:00</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas frecuentes</a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a>
-                        </li>
-                    </ul>
+                    <div class="col-md-4 col-lg-3 pb-3">
+                        <h5 class="seccion-footer text-center p-2 m-0 color-footer">Contacto</h5>
+                        <ul class="nav flex-column text-center">
+                            <li class="nav-item">
+                                <p href="#" class="color-secciones mb-0 p-2">Atencion telefonica:</p>
+                            </li>
+                            <li class="nav-item">
+                                <p href="#" class="color-secciones mb-0 p-2">De lunes a sabados de 0:00
+                                    a
+                                    0:00 y domingos de 0:00 a 0:00</p>
+                            </li>
+                            <li class="nav-item p-2"><a href="#" class="color-footer mb-0 p-3">Preguntas
+                                    frecuentes</a>
+                            </li>
+                            <li class="nav-item p-2"><a href="#" class="color-footer mb-0 p-3">Trabaja con
+                                    nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </footer>
